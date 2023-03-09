@@ -1,0 +1,213 @@
+.page__request {
+    background-color: #F8F8FA;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.request__body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.request__box {
+}
+.request__box-title {
+    font-weight: 500;
+    max-width: 286px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.request__box-item {
+}
+.request__email {
+}
+.request__title-email {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 17px;
+}
+.request__email-enter {
+    width: 624px;
+    height: 56px;
+    border: 1px dashed #000000;
+    border-radius: 36px;
+    padding-left: 30px;
+    font-size: 15px;    
+}
+.request__email-enter:placeholder {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #929191;
+}
+.request__password {
+    margin-top: 47px;
+}
+.request__title-password {
+     font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 17px;
+}
+.request__password-enter {
+    width: 624px;
+    height: 56px;
+    border: 1px dashed #000000;
+    border-radius: 36px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.form__buttom {
+    display: flex;
+    justify-content: right;
+}
+
+.request__access {
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 39px 157px 102px 23px;
+}
+.access__title {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #000000;
+    max-width: 349px;
+    margin-bottom: 73px;
+    margin-top: -40px;
+}
+.access__items {
+    
+}
+.access__gmail {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    gap: 23px;
+    margin-bottom: 11px;
+    
+}
+.access__facebook {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    gap: 23px;
+    margin-bottom: 23px;
+}
+.access__faccebook {
+    
+}
+.access__vk {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    gap: 23px;
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin-top: 37px;
+     width: 287px;
+    height: 54px;
+     font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 31px;
+    border: 1px solid transparent;
+    display: block;
+          }
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.access__box {
+    
+}
+
+
+@media (max-width: 1200px) {
+    .access__box {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .request__access {
+        /* padding: 39px 157px 102px 157px; */
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .access__title {
+        max-width: 100%;
+        margin-bottom: 73px;
+        margin-top: 23px;
+        text-align: center;
+    }
+    .request__box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .request__email-enter {
+        width: 100%;
+    }
+    .request__password-enter {
+        width: 100%;
+    }
+    .request__box-title {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1119px) {
+    .page__request {
+        height: 100%;
+    }
+    
+}
+
+@media (max-width: 540px) {
+    .request__access {
+        padding: 15px;
+    }
+    .request__box-title {
+        font-size: 30px;
+    }
+    .access__title {
+        font-size: 30px;
+    }
+    .access__gmail {
+        font-size: 18px;
+    }
+    .access__facebook {
+        font-size: 18px;
+    }
+    .access__vk {
+        font-size: 18px;
+    }
+    
+}
